@@ -1,0 +1,373 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+html,body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	overflow-x: hidden;
+}
+
+.content-section {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border: 1px solid transparent;
+}
+
+.section1 {
+	background-image: url('assets/BuildBG.png');
+	background-size: cover;
+}
+
+.section2 {
+	background: #4ac99e;
+}
+
+.section3 {
+	background: #f0766b;
+}
+
+.section4 {
+	background-image: url('assets/GitHubBG.png');
+	background-size: cover;
+}
+
+.section5 {
+	background: #4485eb;
+}
+
+.footer {
+	height: 80px;
+	background: #083053;
+	padding-left: 180px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-item {
+	display: inline-block;
+    height: 80px;
+    line-height: 80px;
+	color: #5b7284;
+	width: 200px;
+	font-size: 10pt;
+}
+
+.footer-item-3 {
+    margin-left: 45px;
+}
+
+.footer-sap-logo {
+    background-image: url('assets/Saplogo.png');
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 180px;
+    display: inline-block;
+    color: white;
+    font-size: 10pt;
+    line-height: 44px;
+    background-position-x: 83px;
+    position: absolute;
+    right: 215px;
+    bottom: 21px;
+}
+
+.section-header-build-logo {
+	background-image: url('assets/BuildLogo.svg');
+	height: 32px;
+    width: 200px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+	display: inline-block;
+	background-position-y: 8px;
+}
+
+.section-header {
+	padding-left: 180px;
+	background: #37332d;
+	width: 100%;
+	position: fixed;
+	opacity: 0.9;
+}
+
+.section-header-text {
+	display: inline-block;
+	color: white;
+	height: 32px;
+	vertical-align: middle;
+	width: 100px;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.main-build-logo {
+	background-image: url('assets/BuildLogo.svg');
+	height: 112px;
+	width: 468px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.section1-content {
+	width: 1000px;
+	height: 360px;
+	margin: auto;
+	margin-top: 248px;
+}
+
+.section1-title {
+	color: white;
+	font-size: 36pt;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.section1-subtext {
+	color: white;
+	text-align: center;
+	font-size: 18pt;
+	margin-top: 30px;
+	width: 100%;
+	font-weight: 300;
+}
+
+.section1-buttons {
+	margin-top: 40px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	background-color: #2e77e8;
+	color: white;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 4px;
+	width: 100px;
+	text-align: center;
+	font-size: 10pt;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.play-demo-button {
+	display: inline-block;
+	width: 134px;
+}
+
+.download-button {
+	display: inline-block;
+	width: 100px;
+	margin-left: 16px;
+}
+
+
+.section2-content {
+	width: 1005px;
+	height: 360px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.feature-image {
+	background-image: url('assets/laptop_1.png');
+	height: 240px;
+	width: 440px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+.feature-title {
+	color: white;
+	text-align: center;
+	font-size: 36pt;
+	margin-top: 20px;
+}
+
+.feature-tiles {
+	margin-top: 50px;
+}
+
+.feature-tile {
+	height: 225px;
+	width: 225px;
+	background: white;
+	display: inline-block;
+}
+
+.tile1 {
+	background-image: url('assets/Make a Prototype.svg');
+}
+
+.tile2 {
+	background-image: url('assets/Create a Study.svg');
+	margin-left: 30px;
+}
+
+.tile3 {
+	background-image: url('assets/Upload Files.svg');
+	margin-left: 30px;
+}
+
+.tile4 {
+	background-image: url('assets/Invite Your Team.svg');
+	margin-left: 30px;
+}
+
+.section3-text-content {
+	width: 500px;
+	height: 500px;
+	margin-left: 183px;
+	margin-top: 240px;
+	display: inline-block;
+}
+
+.section3-text-title {
+	color: white;
+	font-size: 36pt;
+	margin-bottom: 15px;
+}
+
+.section3-text-subtitle {
+	color: white;
+	font-size: 18pt;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+.section3-gallery-content {
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 120px;
+    height: 500px;
+    vertical-align: bottom;
+}
+
+.gallery-item {
+    height: 320px;
+    width: 320px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gallery-item-1 {
+	background-image: url('assets/ApprovalApp.png');
+	background-position-y: 30px;
+}
+
+.gallery-item-2 {
+	background-image: url('assets/Timesheet.png');
+}
+
+.gallery-item-3 {
+	background-image: url('assets/Workforcefullsize.png');
+	background-position-y: 30px;
+}
+
+.section4-content {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+    margin-top: 200px;
+}
+
+.section4-title {
+	color: white;
+	font-weight: bold;
+	font-size: 36pt;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.section4-subtitle {
+	color: white;
+	font-size: 36pt;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+
+.section4-github-logo {
+	background-image: url('assets/Githubicon.svg');
+	height: 94px;
+    background-repeat: no-repeat;
+    width: 94px;
+    margin: auto;
+	margin-bottom: 50px;
+}
+
+.download-button.section4-github-button {
+	margin-left: 190px;
+	font-size: 10pt;
+}
+
+.section5-text-content {
+	width: 500px;
+	height: 600px;
+	margin-left: 150px;
+    margin-top: 200px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.section5-text-content-title {
+	color: white;
+	width: 405px;
+	font-size: 36pt;
+	margin-bottom: 20px;
+}
+
+.section5-text-content-subtitle {
+	color: white;
+	width: 340px;
+	font-size: 18pt;
+	margin-bottom: 40px;
+	font-weight: 300;
+}
+
+.section5-text-content-twitter {
+    color: white;
+    background: #f16b50;
+    width: 145px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 10pt;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-left: 8px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.section5-laptop {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+    margin-top: 200px;
+	background-image: url('assets/Computer Monitor.png');
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+}
+
+.section5-phone {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+    margin-bottom: 70px;
+	background-image: url('assets/Iphone.png');
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+}
+
+
+
+
