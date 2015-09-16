@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="132px" height="31px" viewBox="0 0 132 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Sign Up Button Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-2" sketch:type="MSArtboardGroup" transform="translate(-188.000000, -3774.000000)">
+            <g id="Sign-Up-Button-Copy" sketch:type="MSLayerGroup" transform="translate(187.206033, 3774.000000)">
+                <rect id="Rectangle-32" fill="#F06B50" sketch:type="MSShapeGroup" x="0.823527542" y="0" width="131.764407" height="30.6736842" rx="4"></rect>
+                <text id="GO-TO-TWITTER" sketch:type="MSTextLayer" font-family="Lato" font-size="8.15789474" font-weight="bold" line-spacing="14" letter-spacing="2" fill="#FFFFFF">
+                    <tspan x="18.9411335" y="18.6052632">GO TO TWITTER</tspan>
+                </text>
+                <path d="M110.471662,13.0199625 C110.313034,13.1594314 110.313034,13.3856921 110.471662,13.525161 L113.489409,16.1784143 L110.471662,18.8316675 C110.313034,18.9711364 110.313034,19.1972299 110.471662,19.336866 C110.550976,19.4066004 110.655207,19.4415512 110.759248,19.4415512 C110.863098,19.4415512 110.967139,19.4067676 111.046643,19.336866 L114.351214,16.4310971 C114.510033,16.291461 114.510033,16.0653675 114.351214,15.9257314 L111.046453,13.0199625 C110.887634,12.8803264 110.630481,12.8803264 110.471662,13.0199625 Z" id="Imported-Layers-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
