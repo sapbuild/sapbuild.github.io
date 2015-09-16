@@ -19,6 +19,7 @@ html,body {
 
 .section1 {
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url('assets/build-background.jpg');
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url('assets/build-background.jpg');
 	background-image: linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url('assets/build-background.jpg');
 	background-size: cover;
 }
