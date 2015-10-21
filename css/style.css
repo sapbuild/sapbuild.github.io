@@ -164,6 +164,18 @@ body.modal-open {
   background: linear-gradient(to bottom, #715ca2 0%, #261a4a 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#715ca2', endColorstr='#261a4a', GradientType=0);
 }
+.box1 .UICMockup {
+  background-image: url("../assets/images/UIC_mockup_new_opt.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 70vw;
+  position: relative;
+  bottom: 0vh;
+  margin: 0 auto;
+  transition: .5s all ease;
+}
 .box1 h1 {
   margin-bottom: 8vh;
 }
@@ -296,20 +308,6 @@ body.modal-open {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#f1f1f1', GradientType=0);
   /* IE6-9 */
-  /* whitout laptop
-  .cinema .screen {
-    position: absolute;
-    top: 10.4%;
-    //left: 8.6%;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    //background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-  }
-
-  */
 }
 .box3 .container {
   display: flex;
@@ -329,7 +327,7 @@ body.modal-open {
 }
 .box3 .browserWrapper .browserContent {
   position: absolute;
-  top: 36px;
+  top: 6%;
   left: 0;
   border: 2px solid #40C997;
   border-top: none;
@@ -342,16 +340,20 @@ body.modal-open {
 }
 .box3 h1 {
   margin-top: 12vh;
+  font-weight: 300;
+  line-height: 46px;
 }
 .box3 .browserBox:first-child h1 {
   margin-top: 0;
+  line-height: 50px;
 }
 .box3 p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 26px;
+  font-weight: 300;
   margin-top: 16px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .box3 .article-device-wrapper {
   width: 60vw;
@@ -439,48 +441,6 @@ body.modal-open {
 .box3 .screenshot img {
   height: 75%;
 }
-.box3 .carousel.slide {
-  width: calc(100%);
-  margin-top: 10vw;
-}
-.box3 .carousel-caption {
-  top: 60vw;
-  font-size: 24px;
-  font-weight: 200;
-  text-shadow: none;
-  width: 100%;
-  right: 0;
-  left: 0;
-  color: black;
-}
-.box3 .carousel-caption div {
-  margin-bottom: 3vh;
-}
-.box3 .carousel-inner {
-  padding-bottom: 42vh;
-  width: 99%;
-  left: .5%;
-  top: -2px;
-}
-.box3 .carousel-text {
-  font-size: 15px;
-}
-.box3 .carousel-indicators li {
-  border: 1px solid #cacaca;
-}
-.box3 .carousel-indicators .active {
-  background-color: #cacaca;
-}
-.box3 .background-image-carousel-full {
-  background-image: url("../assets/images/green_browser_full.png");
-  position: absolute;
-  top: -4vw;
-  width: 100%;
-  height: 100%;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 .box4 {
   color: white !important;
   min-height: 100vh;
@@ -493,7 +453,7 @@ body.modal-open {
 .box4 .background-image {
   width: 100%;
   position: relative;
-  bottom: -30px;
+  bottom: -12vh;
   background-image: url("../assets/images/laptop_github.png");
   background-size: 80%;
   background-repeat: no-repeat;
@@ -545,7 +505,6 @@ body.modal-open {
   background-position: center;
   background-repeat: no-repeat;
   color: white !important;
-  max-height: 330px !important;
   min-height: 330px;
 }
 .box5 h1 {
@@ -594,11 +553,11 @@ body.modal-open {
 .box5 .btn-orca {
   outline: none;
   font-size: 11px;
-  border: 1px solid #f06b50;
+  border: 1px solid white;
   padding: 12px 24px;
   opacity: .7;
   background-color: transparent;
-  color: #f06b50;
+  color: white;
   position: relative;
   white-space: nowrap;
   cursor: pointer;
@@ -618,6 +577,9 @@ body.modal-open {
   position: absolute;
   top: 12px;
   right: 13px;
+}
+.box5 img {
+  display: none;
 }
 .box8 {
   padding-top: 40px;
@@ -642,7 +604,8 @@ body.modal-open {
   display: inline-block;
   font-size: 10px;
   font-weight: 200;
-  padding-right: 20px;
+  padding-right: 12px;
+  letter-spacing: 1px;
 }
 .box8 .sapText {
   color: white;
@@ -737,7 +700,7 @@ body.modal-open {
     display: block;
     position: absolute;
     top: 22px;
-    width: 80%;
+    width: 50%;
     height: 25px;
     background-image: url("../assets/images/BUILD_logo.png");
     background-position: left;
@@ -746,7 +709,7 @@ body.modal-open {
     background-position-x: 20px;
   }
   .box {
-    padding: 50px 10px;
+    padding: 12vh 20px;
   }
   .container.noMargin {
     padding: 0;
@@ -819,9 +782,9 @@ body.modal-open {
     margin-top: 12vh;
   }
   .box2 .tileWrapper {
-    margin: 20vh 0;
+    margin: 5vh 0 20vh 0;
   }
-  .videoWrapper img:hover {
+  .videoWrapper div:hover {
     transform: translateY(-20vh) !important;
     bottom: 0px;
     transition: .5s all ease;
@@ -849,6 +812,18 @@ body.modal-open {
   }
 }
 @media (max-width: 768px) {
+  div.box5 {
+    background-image: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  div.box5 img {
+    display: block;
+    position: relative;
+    bottom: -12vh;
+    width: 63%;
+    margin: 0 auto;
+  }
   .header-new {
     opacity: 1 !important;
   }
@@ -884,15 +859,16 @@ body.modal-open {
     width: 120px;
   }
   .box4 .background-image {
-    background-position: 50% 115%;
+    background-position: bottom center;
+    background-size: 100%;
   }
   div.box5 {
     background-position: top;
-    height: 350px;
   }
   div.box5 .email {
     width: 100%;
     display: block;
+    font-size: 16px !important;
   }
   div.box5 h1 {
     margin-top: 6vh;
@@ -925,9 +901,9 @@ body.modal-open {
     font-weight: 300;
     position: absolute;
     bottom: 0;
-    text-align: center;
     width: 190%;
     padding-bottom: 10px;
+    padding-left: 20px;
   }
   body .box8 img#twitter {
     width: 20px;
@@ -951,7 +927,7 @@ body.modal-open {
   }
 }
 @media (min-height: 835px) {
-  .videoWrapper img:hover {
+  .videoWrapper div:hover {
     transform: translateY(-4vh) !important;
     transition: .5s all ease;
   }
@@ -962,15 +938,7 @@ body.modal-open {
   }
 }
 @media (max-width: 413px) {
-  div.box5 {
-    background-size: 100%;
-  }
   .box3 .browserWrapper .browserContent {
-    top: 24px;
-  }
-}
-@media (max-width: 769px) and (min-width: 414px) {
-  div.box5 {
-    background-size: 80% !important;
+    top: 15px;
   }
 }

@@ -205,8 +205,20 @@ body.modal-open {
   background: linear-gradient(to bottom, rgba(113, 92, 162, 1) 0%, rgba(38, 26, 74, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#715ca2', endColorstr='#261a4a', GradientType=0);
 
+  .UICMockup {
+    background-image: url("../assets/images/UIC_mockup_new_opt.png");
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 70vw;
+    position: relative;
+    bottom: 0vh;
+    margin: 0 auto;
+    transition: .5s all ease;
+  }
+
   h1 {
-    //margin-top: 0vh;
     margin-bottom: 8vh;
   }
 
@@ -309,13 +321,11 @@ body.modal-open {
   }
 
   .tile {
-    //display: inline-block;
     width: 305px;
     max-width: 305px;
     height: 300px;
     max-height: 300px;
     background-color: white;
-    //transform: translateY(10px) rotate(0deg);
     padding: 30px 40px;
     margin: 15px 15px 0;
     flex-grow: 1;
@@ -323,10 +333,8 @@ body.modal-open {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 5px 0px;
     transition: .2s all ease-out;
     &:hover {
-      //animation: fontbulger 1s normal forwards ease-in-out;
       transform: scale(1.01, 1.01) translateY(-10px);
       box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 30px 0px;
-      //transition: .5s all ease-out;
       will-change: transform;
     }
 
@@ -380,7 +388,7 @@ body.modal-open {
 
     .browserContent {
       position: absolute;
-      top: 36px;
+      top: 6%;
       left: 0;
       border: 2px solid #40C997;
       border-top: none;
@@ -409,18 +417,23 @@ body.modal-open {
 
   h1 {
     margin-top: 12vh;
+    font-weight: 300;
+    line-height: 46px;
   }
 
   .browserBox:first-child h1{
     margin-top: 0;
+    line-height: 50px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
-    line-height: 24px;
+    line-height: 26px;
+    font-weight: 300;
     margin-top: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    //color: black;
   }
 
   .article-device-wrapper {
@@ -433,9 +446,6 @@ body.modal-open {
     width: 33vw;
     padding-left: 13vw;
 
-    //display: flex;
-    //flex-direction: column;
-    //align-items: center;
     &:first-child {
       margin-top: 25vh;
     }
@@ -475,8 +485,6 @@ body.modal-open {
   }
   .screen.monitor {
     background-image: url("../assets/images/green_browser_full.png");
-    //width: 100%;
-    //padding-bottom: 71%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -506,20 +514,6 @@ body.modal-open {
     background-position: 50%;
 
   }
-/* whitout laptop
-  .cinema .screen {
-    position: absolute;
-    top: 10.4%;
-    //left: 8.6%;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    //background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-  }
-
-  */
 
   .cinema .screen {
     position: absolute;
@@ -544,56 +538,6 @@ body.modal-open {
   }
 
 
-  // *** Carousel
-  .carousel.slide {
-    width: calc(100% - 0px);
-    margin-top: 10vw;
-  }
-
-  .carousel-caption {
-    top: 60vw;
-    font-size: 24px;
-    font-weight: 200;
-    text-shadow: none;
-    width: 100%;
-    right: 0;
-    left: 0;
-    color: black;
-    div {
-      margin-bottom: 3vh;
-    }
-
-  }
-
-  .carousel-inner {
-    padding-bottom: 42vh;
-    width: 99%;
-    left: .5%;
-    top: -2px;
-  }
-
-  .carousel-text {
-    font-size: 15px;
-  }
-
-  .carousel-indicators li {
-    border: 1px solid #cacaca;
-  }
-
-  .carousel-indicators .active {
-    background-color: #cacaca;
-  }
-  
-  .background-image-carousel-full {
-      background-image: url("../assets/images/green_browser_full.png");
-      position: absolute;
-      top: -4vw;
-      width: 100%;
-      height: 100%;
-      background-position: top left;
-      background-repeat: no-repeat;
-      background-size: contain;
-  }
 }
 
 .box4 {
@@ -608,7 +552,7 @@ body.modal-open {
   .background-image {
     width: 100%;
     position: relative;
-    bottom: -30px;
+    bottom: -12vh;
     background-image: url("../assets/images/laptop_github.png");
     background-size: 80%;
     background-repeat: no-repeat;
@@ -671,7 +615,6 @@ body.modal-open {
   background-position: center;
   background-repeat: no-repeat;
   color: white !important;
-  max-height: 330px !important;
   min-height: 330px;
 
   h1 {
@@ -724,11 +667,11 @@ body.modal-open {
   .btn-orca {
     outline: none;
     font-size: 11px;
-    border: 1px solid #f06b50;
+    border: 1px solid white;
     padding: 12px 24px;
     opacity: .7;
     background-color: transparent;
-    color: #f06b50;
+    color: white;
     position: relative;
     white-space: nowrap;
     cursor: pointer;
@@ -749,6 +692,10 @@ body.modal-open {
     position: absolute;
     top: 12px;
     right: 13px;
+  }
+  
+  img {
+    display: none;
   }
 
 }
@@ -778,7 +725,8 @@ body.modal-open {
     display: inline-block;
     font-size: 10px;
     font-weight: 200;
-    padding-right: 20px;
+    padding-right: 12px;
+    letter-spacing: 1px;
   }
 
   .sapText {
@@ -900,7 +848,7 @@ body.modal-open {
     display: block;
     position: absolute;
     top: 22px;
-    width: 80%;
+    width: 50%;
     height: 25px;
     background-image: url("../assets/images/BUILD_logo.png");
     background-position: left;
@@ -912,7 +860,7 @@ body.modal-open {
   // HERE
   .box {
     //padding: 100px 0;
-    padding: 50px 10px;
+    padding: 12vh 20px;
   }
 
   .container.noMargin {
@@ -1008,11 +956,11 @@ body.modal-open {
     }
 
     .tileWrapper {
-      margin: 20vh 0;
+      margin: 5vh 0 20vh 0;
     }
   }
 
-  .videoWrapper img:hover {
+  .videoWrapper div:hover {
     transform: translateY(-20vh) !important;
     bottom: 0px;
     transition: .5s all ease;
@@ -1049,6 +997,21 @@ body.modal-open {
 
 // *** MOBILE
 @media (max-width: 768px) {
+
+  div.box5 {
+    background-image: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.box5 img {
+    display: block;
+    position: relative;
+    bottom: -12vh;
+    width: 63%;
+    margin: 0 auto;
+  }
+
 
   //.navbar.navbar-default {
   //  padding: 10px;
@@ -1114,20 +1077,17 @@ body.modal-open {
     }
 
     .background-image {
-      background-position: 50% 115%;
+      background-position: bottom center;
+      background-size: 100%;
     }
   }
 
   div.box5 {
-    //background-position-x: -254vw;
-    //background-position: top center;
-
     background-position: top;
-    height: 350px;
-    //margin: 0 0 100px 0 ;
     .email {
       width: 100%;
       display: block;
+      font-size: 16px !important;
     }
 
     h1 {
@@ -1169,9 +1129,9 @@ body.modal-open {
         font-weight: 300;
         position: absolute;
         bottom: 0;
-        text-align: center;
         width: 190%;
         padding-bottom: 10px;
+        padding-left: 20px;
       }
       //margin-bottom: 50px;
 
@@ -1206,7 +1166,7 @@ body.modal-open {
 }
 
 @media (min-height: 835px) {
-  .videoWrapper img:hover {
+  .videoWrapper div:hover {
     transform: translateY(-4vh) !important;
     transition: .5s all ease;
   }
@@ -1221,21 +1181,18 @@ body.modal-open {
 
 
 @media (max-width: 413px) {
-  div.box5 {
-    background-size: 100%;
-  }
+
   .box3 .browserWrapper .browserContent {
-    top: 24px;
+    top: 15px;
   }
+
 }
 
 
 @media (max-width: 769px) and (min-width: 414px) {
-  div.box5 {
-    background-size: 80% !important;
-  }
-
 
 }
+
+
 
 
