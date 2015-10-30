@@ -1,4 +1,4 @@
-Marketingpage
+Marketing page for Build
 =============
 
-http://Build.me
+This is the repository in order to provide the pbulic site @ http://www.Build.me
