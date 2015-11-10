@@ -1,4 +1,4 @@
 Marketing page for Build
 =============
 
-This is the repository provide assets for the public site @ http://www.Build.me
+This repository hosts the assets used @ http://www.Build.me
